@@ -1,6 +1,7 @@
 package com.example
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
@@ -20,6 +21,7 @@ import com.example.ui.theme.DarkBackground
 import com.example.ui.theme.MyApplicationTheme
 import com.example.widget.DynamicCalendarWidgetProvider
 
+@SuppressLint("InvalidFragmentVersionForActivityResult")
 class MainActivity : ComponentActivity() {
 
     private val viewModel: CalendarViewModel by viewModels()

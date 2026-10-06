@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 9.1.1" type="baseline" client="gradle" dependencies="false" name="AGP (9.1.1)" variant="all" version="9.1.1">
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        errorLine1="                val gmtString = String.format(&quot;GMT%s%02d:%02d&quot;, sign, kotlin.math.abs(hours), mins)"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/ui/TimeZoneSelectionDialog.kt"
+            line="97"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `targetCellWidth` is only used in API level 31 and higher (current min is 24)"
+        errorLine1="    android:targetCellWidth=&quot;1&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/xml/widget_dynamic_calendar_info.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `targetCellHeight` is only used in API level 31 and higher (current min is 24)"
+        errorLine1="    android:targetCellHeight=&quot;1&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/xml/widget_dynamic_calendar_info.xml"
+            line="6"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of Gradle than 9.3.1 is available: 9.8.0"
+        errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-9.3.1-bin.zip"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="../gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.application than 9.1.1 is available: 9.4.1"
+        errorLine1="agp = &quot;9.1.1&quot;"
+        errorLine2="      ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="2"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.18.0 is available: 1.19.1"
+        errorLine1="coreKtx = &quot;1.18.0&quot;"
+        errorLine2="          ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="3"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.7 is available: 2.11.0"
+        errorLine1="lifecycleRuntimeKtx = &quot;2.8.7&quot;"
+        errorLine2="                      ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="7"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.7 is available: 2.11.0"
+        errorLine1="lifecycleViewmodelCompose = &quot;2.8.7&quot;"
+        errorLine2="                            ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="8"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.7 is available: 2.11.0"
+        errorLine1="lifecycleRuntimeCompose = &quot;2.8.7&quot;"
+        errorLine2="                          ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="9"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity-compose than 1.10.1 is available: 1.13.0"
+        errorLine1="activityCompose = &quot;1.10.1&quot;"
+        errorLine2="                  ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="10"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.compose:compose-bom than 2024.09.00 is available: 2026.09.00"
+        errorLine1="composeBom = &quot;2024.09.00&quot;"
+        errorLine2="             ~~~~~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="12"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-compose than 2.8.9 is available: 2.10.2"
+        errorLine1="navigationCompose = &quot;2.8.9&quot;"
+        errorLine2="                    ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="14"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-runtime than 2.7.0 is available: 2.8.5"
+        errorLine1="roomRuntime = &quot;2.7.0&quot;"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="15"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-ktx than 2.7.0 is available: 2.8.5"
+        errorLine1="roomKtx = &quot;2.7.0&quot;"
+        errorLine2="          ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="16"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-compiler than 2.7.0 is available: 2.8.5"
+        errorLine1="roomCompiler = &quot;2.7.0&quot;"
+        errorLine2="               ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="17"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test:core than 1.6.1 is available: 1.7.0"
+        errorLine1="core = &quot;1.6.1&quot;"
+        errorLine2="       ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="19"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test:runner than 1.6.2 is available: 1.7.0"
+        errorLine1="runner = &quot;1.6.2&quot;"
+        errorLine2="         ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="20"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.gms:play-services-location than 21.3.0 is available: 21.4.0"
+        errorLine1="playServicesLocation = &quot;21.3.0&quot;"
+        errorLine2="                       ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="27"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-camera2 than 1.5.0 is available: 1.6.2"
+        errorLine1="cameraCamera2 = &quot;1.5.0&quot;"
+        errorLine2="                ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="28"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-lifecycle than 1.5.0 is available: 1.6.2"
+        errorLine1="cameraLifecycle = &quot;1.5.0&quot;"
+        errorLine2="                  ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="29"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-view than 1.5.0 is available: 1.6.2"
+        errorLine1="cameraView = &quot;1.5.0&quot;"
+        errorLine2="             ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="30"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-core than 1.5.0 is available: 1.6.2"
+        errorLine1="cameraCore = &quot;1.5.0&quot;"
+        errorLine2="             ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="31"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.datastore:datastore-preferences than 1.1.7 is available: 1.2.1"
+        errorLine1="datastorePreferences = &quot;1.1.7&quot;"
+        errorLine2="                       ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="36"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-bom than 34.17.0 is available: 34.19.0"
+        errorLine1="firebaseBom = &quot;34.17.0&quot;"
+        errorLine2="              ~~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="39"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.credentials:credentials than 1.5.0 is available: 1.6.0"
+        errorLine1="credentials = &quot;1.5.0&quot;"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="42"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.credentials:credentials-play-services-auth than 1.5.0 is available: 1.6.0"
+        errorLine1="credentials = &quot;1.5.0&quot;"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="42"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.libraries.identity.googleid:googleid than 1.1.1 is available: 1.2.1"
+        errorLine1="googleid = &quot;1.1.1&quot;"
+        errorLine2="           ~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="43"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.2.10 is available: 2.4.20"
+        errorLine1="kotlin = &quot;2.2.10&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="11"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-test than 1.10.2 is available: 1.11.0"
+        errorLine1="kotlinxCoroutinesTest = &quot;1.10.2&quot;"
+        errorLine2="                        ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="18"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.squareup.retrofit2:retrofit than 2.12.0 is available: 3.0.0"
+        errorLine1="retrofit = &quot;2.12.0&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="22"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.squareup.retrofit2:converter-moshi than 2.12.0 is available: 3.0.0"
+        errorLine1="converterMoshi = &quot;2.12.0&quot;"
+        errorLine2="                 ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="23"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.10.2 is available: 1.11.0"
+        errorLine1="kotlinxCoroutinesAndroid = &quot;1.10.2&quot;"
+        errorLine2="                           ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="24"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.10.2 is available: 1.11.0"
+        errorLine1="kotlinxCoroutinesCore = &quot;1.10.2&quot;"
+        errorLine2="                        ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="25"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.squareup.okhttp3:logging-interceptor than 4.10.0 is available: 5.5.0"
+        errorLine1="loggingInterceptor = &quot;4.10.0&quot;"
+        errorLine2="                     ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="32"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.squareup.okhttp3:okhttp than 4.10.0 is available: 5.5.0"
+        errorLine1="okhttp = &quot;4.10.0&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="33"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of org.robolectric:robolectric than 4.16.1 is available: 4.17"
+        errorLine1="robolectric = &quot;4.16.1&quot;"
+        errorLine2="              ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="37"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of io.github.takahirom.roborazzi than 1.59.0 is available: 1.76.0"
+        errorLine1="roborazzi = &quot;1.59.0&quot;"
+        errorLine2="            ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="38"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of io.github.takahirom.roborazzi:roborazzi than 1.59.0 is available: 1.76.0"
+        errorLine1="roborazzi = &quot;1.59.0&quot;"
+        errorLine2="            ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="38"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of io.github.takahirom.roborazzi:roborazzi-compose than 1.59.0 is available: 1.76.0"
+        errorLine1="roborazzi = &quot;1.59.0&quot;"
+        errorLine2="            ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="38"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of io.github.takahirom.roborazzi:roborazzi-junit-rule than 1.59.0 is available: 1.76.0"
+        errorLine1="roborazzi = &quot;1.59.0&quot;"
+        errorLine2="            ~~~~~~~~">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="38"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="ExportedReceiver"
+        message="Exported receiver does not require permission"
+        errorLine1="        &lt;receiver"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="467"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 24"
+        errorLine1="                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/notification/AlarmSoundPlayer.kt"
+            line="47"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 24"
+        errorLine1="            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/notification/NotificationHelper.kt"
+            line="203"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.bg_dynamic_icon` appears to be unused"
+        errorLine1="&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable/bg_dynamic_icon.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_200` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple_200&quot;>#FFBB86FC&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_500` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple_500&quot;>#FF6200EE&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_700` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple_700&quot;>#FF3700B3&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.teal_200` appears to be unused"
+        errorLine1="    &lt;color name=&quot;teal_200&quot;>#FF03DAC5&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.teal_700` appears to be unused"
+        errorLine1="    &lt;color name=&quot;teal_700&quot;>#FF018786&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.black` appears to be unused"
+        errorLine1="    &lt;color name=&quot;black&quot;>#FF000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.white` appears to be unused"
+        errorLine1="    &lt;color name=&quot;white&quot;>#FFFFFFFF&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_1.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_1.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_1.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_1.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_1.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_1.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_1.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_1.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_1.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_10.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_10.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_10.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_10.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_10.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_10.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_10.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_10.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_10.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_10_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_10_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_10_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_10_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_10_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_10_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_10_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_10_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_10_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_10_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_10_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_11.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_11.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_11.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_11.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_11.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_11.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_11.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_11.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_11.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_11_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_11_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_11_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_11_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_11_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_11_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_11_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_11_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_11_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_11_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_11_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_12.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_12.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_12.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_12.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_12.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_12.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_12.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_12.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_12.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_12_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_12_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_12_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_12_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_12_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_12_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_12_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_12_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_12_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_12_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_12_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_13.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_13.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_13.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_13.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_13.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_13.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_13.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_13.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_13.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_13_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_13_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_13_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_13_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_13_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_13_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_13_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_13_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_13_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_13_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_13_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_14.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_14.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_14.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_14.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_14.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_14.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_14.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_14.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_14.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_14_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_14_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_14_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_14_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_14_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_14_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_14_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_14_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_14_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_14_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_14_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_15.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_15.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_15.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_15.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_15.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_15.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_15.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_15.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_15.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_15_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_15_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_15_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_15_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_15_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_15_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_15_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_15_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_15_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_15_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_15_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_16.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_16.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_16.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_16.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_16.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_16.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_16.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_16.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_16.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_16_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_16_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_16_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_16_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_16_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_16_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_16_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_16_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_16_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_16_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_16_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_17.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_17.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_17.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_17.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_17.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_17.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_17.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_17.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_17.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_17_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_17_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_17_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_17_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_17_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_17_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_17_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_17_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_17_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_17_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_17_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_18.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_18.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_18.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_18.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_18.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_18.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_18.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_18.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_18.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_18_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_18_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_18_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_18_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_18_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_18_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_18_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_18_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_18_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_18_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_18_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_19.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_19.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_19.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_19.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_19.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_19.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_19.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_19.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_19.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_19_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_19_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_19_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_19_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_19_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_19_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_19_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_19_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_19_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_19_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_19_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_1_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_1_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_1_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_1_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_1_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_1_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_1_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_1_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_1_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_1_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_1_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_2.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_2.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_2.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_2.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_2.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_2.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_2.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_2.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_2.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_20.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_20.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_20.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_20.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_20.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_20.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_20.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_20.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_20.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_20_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_20_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_20_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_20_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_20_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_20_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_20_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_20_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_20_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_20_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_20_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_21.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_21.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_21.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_21.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_21.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_21.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_21.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_21.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_21.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_21_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_21_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_21_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_21_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_21_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_21_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_21_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_21_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_21_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_21_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_21_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_22.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_22.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_22.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_22.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_22.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_22.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_22.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_22.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_22.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_22_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_22_round.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_22_round.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_22_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_22_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_22_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_22_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_22_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_22_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_22_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_22_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_23.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_23.webp: 48x48 dp (72x72 px), mipmap-mdpi/ic_launcher_day_23.webp: 48x48 dp (48x48 px), mipmap-xhdpi/ic_launcher_day_23.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_23.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_23.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_23.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_23.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_23.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_23_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_23_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_23_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_23_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_23_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_23_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_23_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_23_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_23_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_24.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_24.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_24.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_24.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_24.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_24.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_24.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_24_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_24_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_24_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_24_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_24_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_24_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_24_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_24_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_24_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_25.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_25.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_25.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_25.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_25.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_25.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_25.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_25_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_25_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_25_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_25_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_25_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_25_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_25_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_25_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_25_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_26.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_26.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_26.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_26.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_26.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_26.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_26.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_26_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_26_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_26_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_26_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_26_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_26_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_26_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_26_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_26_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_27.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_27.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_27.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_27.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_27.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_27.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_27.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_27_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_27_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_27_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_27_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_27_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_27_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_27_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_27_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_27_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_28.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_28.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_28.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_28.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_28.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_28.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_28.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_28_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_28_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_28_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_28_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_28_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_28_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_28_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_28_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_28_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_29.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_29.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_29.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_29.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_29.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_29.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_29.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_29_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_29_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_29_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_29_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_29_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_29_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_29_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_29_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_29_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_2_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_2_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_2_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_2_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_2_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_2_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_2_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_2_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_2_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_3.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_3.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_3.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_3.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_3.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_3.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_3.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_30.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_30.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_30.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_30.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_30.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_30.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_30.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_30_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_30_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_30_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_30_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_30_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_30_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_30_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_30_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_30_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_31.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_31.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_31.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_31.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_31.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_31.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_31.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_31_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_31_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_31_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_31_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_31_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_31_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_31_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_31_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_31_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_3_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_3_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_3_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_3_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_3_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_3_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_3_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_3_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_3_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_4.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_4.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_4.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_4.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_4.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_4.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_4.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_4_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_4_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_4_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_4_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_4_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_4_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_4_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_4_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_4_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_5.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_5.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_5.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_5.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_5.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_5.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_5.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_5_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_5_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_5_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_5_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_5_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_5_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_5_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_5_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_5_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_6.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_6.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_6.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_6.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_6.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_6.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_6.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_6_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_6_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_6_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_6_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_6_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_6_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_6_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_6_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_6_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_7.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_7.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_7.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_7.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_7.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_7.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_7.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_7_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_7_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_7_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_7_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_7_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_7_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_7_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_7_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_7_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_8.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_8.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_8.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_8.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_8.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_8.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_8.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_8_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_8_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_8_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_8_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_8_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_8_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_8_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_8_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_8_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_9.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_9.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_9.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_9.webp: 12268x3140438 dp (36803x9421313 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_9.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_9.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_9.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_day_9_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_day_9_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_day_9_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_day_9_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_day_9_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_9_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_9_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_9_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_9_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `ic_launcher_round.webp` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher_round.webp: 48x48 dp (72x72 px), mipmap-xhdpi/ic_launcher_round.webp: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher_round.webp: 12268x3140438 dp (36803x9421313 px), mipmap-xxxhdpi/ic_launcher_round.webp: 12273x3141760 dp (49091x12567041 px)">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher_day_12.webp">
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_12.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher_day_12.webp">
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_12.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher_day_1.webp, ic_launcher_day_10.webp, ic_launcher_day_11.webp, ic_launcher_day_12.webp, ic_launcher_day_13.webp, ic_launcher_day_14.webp, ic_launcher_day_15.webp, ic_launcher_day_16.webp, ic_launcher_day_17.webp, ic_launcher_day_18.webp, ic_launcher_day_19.webp, ic_launcher_day_2.webp, ic_launcher_day_20.webp, ic_launcher_day_21.webp, ic_launcher_day_22.webp, ic_launcher_day_23.webp, ic_launcher_day_24.webp, ic_launcher_day_25.webp, ic_launcher_day_26.webp, ic_launcher_day_27.webp, ic_launcher_day_28.webp, ic_launcher_day_29.webp, ic_launcher_day_3.webp, ic_launcher_day_30.webp, ic_launcher_day_31.webp, ic_launcher_day_4.webp, ic_launcher_day_5.webp, ic_launcher_day_6.webp, ic_launcher_day_7.webp, ic_launcher_day_8.webp, ic_launcher_day_9.webp">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_9.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_8.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_7.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_6.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_5.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_4.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_31.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_30.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_3.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_29.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_28.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_27.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_26.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_25.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_24.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_23.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_22.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_21.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_20.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_2.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_19.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_18.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_17.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_16.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_15.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_14.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_13.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_12.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_11.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_10.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_1.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher_day_1.webp, ic_launcher_day_10.webp, ic_launcher_day_11.webp, ic_launcher_day_12.webp, ic_launcher_day_13.webp, ic_launcher_day_14.webp, ic_launcher_day_15.webp, ic_launcher_day_16.webp, ic_launcher_day_17.webp, ic_launcher_day_18.webp, ic_launcher_day_19.webp, ic_launcher_day_2.webp, ic_launcher_day_20.webp, ic_launcher_day_21.webp, ic_launcher_day_22.webp, ic_launcher_day_23.webp, ic_launcher_day_24.webp, ic_launcher_day_25.webp, ic_launcher_day_26.webp, ic_launcher_day_27.webp, ic_launcher_day_28.webp, ic_launcher_day_29.webp, ic_launcher_day_3.webp, ic_launcher_day_30.webp, ic_launcher_day_31.webp, ic_launcher_day_4.webp, ic_launcher_day_5.webp, ic_launcher_day_6.webp, ic_launcher_day_7.webp, ic_launcher_day_8.webp, ic_launcher_day_9.webp">
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_9.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_8.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_7.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_6.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_5.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_4.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_31.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_30.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_3.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_29.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_28.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_27.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_26.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_25.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_24.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_23.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_22.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_21.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_20.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_2.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_19.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_18.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_17.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_16.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_15.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_14.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_13.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_12.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_11.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_10.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_1.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher_day_1.webp, ic_launcher_day_10.webp, ic_launcher_day_11.webp, ic_launcher_day_12.webp, ic_launcher_day_13.webp, ic_launcher_day_14.webp, ic_launcher_day_15.webp, ic_launcher_day_16.webp, ic_launcher_day_17.webp, ic_launcher_day_18.webp, ic_launcher_day_19.webp, ic_launcher_day_2.webp, ic_launcher_day_20.webp, ic_launcher_day_21.webp, ic_launcher_day_22.webp, ic_launcher_day_23.webp, ic_launcher_day_24.webp, ic_launcher_day_25.webp, ic_launcher_day_26.webp, ic_launcher_day_27.webp, ic_launcher_day_28.webp, ic_launcher_day_29.webp, ic_launcher_day_3.webp, ic_launcher_day_30.webp, ic_launcher_day_31.webp, ic_launcher_day_4.webp, ic_launcher_day_5.webp, ic_launcher_day_6.webp, ic_launcher_day_7.webp, ic_launcher_day_8.webp, ic_launcher_day_9.webp">
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_9.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_8.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_7.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_6.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_5.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_4.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_31.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_30.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_3.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_29.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_28.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_27.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_26.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_25.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_24.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_23.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_22.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_21.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_20.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_2.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_19.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_18.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_17.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_16.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_15.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_14.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_13.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_12.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_11.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_10.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_1.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher_day_24.webp, ic_launcher_day_25.webp, ic_launcher_day_26.webp, ic_launcher_day_27.webp, ic_launcher_day_28.webp, ic_launcher_day_29.webp, ic_launcher_day_3.webp, ic_launcher_day_30.webp, ic_launcher_day_31.webp, ic_launcher_day_4.webp, ic_launcher_day_5.webp, ic_launcher_day_6.webp, ic_launcher_day_7.webp, ic_launcher_day_8.webp, ic_launcher_day_9.webp">
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_9.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_8.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_7.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_6.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_5.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_4.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_31.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_30.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_3.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_29.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_28.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_27.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_26.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_25.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_24.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher_day_10_round.webp, ic_launcher_day_11_round.webp, ic_launcher_day_12_round.webp, ic_launcher_day_13_round.webp, ic_launcher_day_14_round.webp, ic_launcher_day_15_round.webp, ic_launcher_day_16_round.webp, ic_launcher_day_17_round.webp, ic_launcher_day_18_round.webp, ic_launcher_day_19_round.webp, ic_launcher_day_1_round.webp, ic_launcher_day_20_round.webp, ic_launcher_day_21_round.webp, ic_launcher_day_22_round.webp, ic_launcher_day_23_round.webp, ic_launcher_day_24_round.webp, ic_launcher_day_25_round.webp, ic_launcher_day_26_round.webp, ic_launcher_day_27_round.webp, ic_launcher_day_28_round.webp, ic_launcher_day_29_round.webp, ic_launcher_day_2_round.webp, ic_launcher_day_30_round.webp, ic_launcher_day_31_round.webp, ic_launcher_day_3_round.webp, ic_launcher_day_4_round.webp, ic_launcher_day_5_round.webp, ic_launcher_day_6_round.webp, ic_launcher_day_7_round.webp, ic_launcher_day_8_round.webp, ic_launcher_day_9_round.webp, ic_launcher_round.webp">
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_9_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_8_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_7_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_6_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_5_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_4_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_3_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_31_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_30_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_2_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_29_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_28_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_27_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_26_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_25_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_24_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_23_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_22_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_21_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_20_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_1_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_19_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_18_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_17_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_16_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_15_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_14_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_13_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_12_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_11_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xhdpi/ic_launcher_day_10_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher_day_10_round.webp, ic_launcher_day_11_round.webp, ic_launcher_day_12_round.webp, ic_launcher_day_13_round.webp, ic_launcher_day_14_round.webp, ic_launcher_day_15_round.webp, ic_launcher_day_16_round.webp, ic_launcher_day_17_round.webp, ic_launcher_day_18_round.webp, ic_launcher_day_19_round.webp, ic_launcher_day_1_round.webp, ic_launcher_day_20_round.webp, ic_launcher_day_21_round.webp, ic_launcher_day_22_round.webp, ic_launcher_day_23_round.webp, ic_launcher_day_24_round.webp, ic_launcher_day_25_round.webp, ic_launcher_day_26_round.webp, ic_launcher_day_27_round.webp, ic_launcher_day_28_round.webp, ic_launcher_day_29_round.webp, ic_launcher_day_2_round.webp, ic_launcher_day_30_round.webp, ic_launcher_day_31_round.webp, ic_launcher_day_3_round.webp, ic_launcher_day_4_round.webp, ic_launcher_day_5_round.webp, ic_launcher_day_6_round.webp, ic_launcher_day_7_round.webp, ic_launcher_day_8_round.webp, ic_launcher_day_9_round.webp, ic_launcher_round.webp">
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_9_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_8_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_7_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_6_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_5_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_4_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_3_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_31_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_30_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_2_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_29_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_28_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_27_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_26_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_25_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_24_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_23_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_22_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_21_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_20_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_1_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_19_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_18_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_17_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_16_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_15_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_14_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_13_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_12_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_11_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxhdpi/ic_launcher_day_10_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher_day_10_round.webp, ic_launcher_day_11_round.webp, ic_launcher_day_12_round.webp, ic_launcher_day_13_round.webp, ic_launcher_day_14_round.webp, ic_launcher_day_15_round.webp, ic_launcher_day_16_round.webp, ic_launcher_day_17_round.webp, ic_launcher_day_18_round.webp, ic_launcher_day_19_round.webp, ic_launcher_day_1_round.webp, ic_launcher_day_20_round.webp, ic_launcher_day_21_round.webp, ic_launcher_day_22_round.webp, ic_launcher_day_23_round.webp, ic_launcher_day_24_round.webp, ic_launcher_day_25_round.webp, ic_launcher_day_26_round.webp, ic_launcher_day_27_round.webp, ic_launcher_day_28_round.webp, ic_launcher_day_29_round.webp, ic_launcher_day_2_round.webp, ic_launcher_day_30_round.webp, ic_launcher_day_31_round.webp, ic_launcher_day_3_round.webp, ic_launcher_day_4_round.webp, ic_launcher_day_5_round.webp, ic_launcher_day_6_round.webp, ic_launcher_day_7_round.webp, ic_launcher_day_8_round.webp, ic_launcher_day_9_round.webp, ic_launcher_round.webp">
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_9_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_8_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_7_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_6_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_5_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_4_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_3_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_31_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_30_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_2_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_29_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_28_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_27_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_26_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_25_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_24_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_23_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_22_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_21_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_20_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_1_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_19_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_18_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_17_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_16_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_15_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_14_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_13_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_12_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_11_round.webp"/>
+        <location
+            file="src/main/res/mipmap-xxxhdpi/ic_launcher_day_10_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher_day_12_round.webp, ic_launcher_round.webp">
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_round.webp"/>
+        <location
+            file="src/main/res/mipmap-hdpi/ic_launcher_day_12_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDuplicates"
+        message="The following unrelated icon files have identical contents: ic_launcher_day_23_round.webp, ic_launcher_day_24_round.webp, ic_launcher_day_25_round.webp, ic_launcher_day_26_round.webp, ic_launcher_day_27_round.webp, ic_launcher_day_28_round.webp, ic_launcher_day_29_round.webp, ic_launcher_day_2_round.webp, ic_launcher_day_30_round.webp, ic_launcher_day_31_round.webp, ic_launcher_day_3_round.webp, ic_launcher_day_4_round.webp, ic_launcher_day_5_round.webp, ic_launcher_day_6_round.webp, ic_launcher_day_7_round.webp, ic_launcher_day_8_round.webp, ic_launcher_day_9_round.webp, ic_launcher_round.webp">
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_9_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_8_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_7_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_6_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_5_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_4_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_3_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_31_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_30_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_2_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_29_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_28_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_27_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_26_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_25_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_24_round.webp"/>
+        <location
+            file="src/main/res/mipmap-mdpi/ic_launcher_day_23_round.webp"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;12&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;12&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/widget_dynamic_calendar.xml"
+            line="15"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;SAT&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;SAT&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/widget_dynamic_calendar.xml"
+            line="28"
+            column="9"/>
+    </issue>
+
+</issues>
