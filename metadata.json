@@ -1,0 +1,6 @@
+{
+  "name": "Calendar",
+  "description": "A sleek Infinix-styled dark calendar with Indian holidays, Hijri and Hindu calendar support, dynamic icon and widget, and event scheduling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/widget_background"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/widget_day_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textColor="#007AFF"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/widget_day_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="SAT"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.08"
+        android:includeFontPadding="false"
+        android:gravity="center" />
+
+</LinearLayout>

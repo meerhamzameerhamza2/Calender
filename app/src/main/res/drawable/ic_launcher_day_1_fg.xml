@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Date "1" centered (Roboto Bold matching Settings Dynamic Calendar Icon) -->
+    <path
+        android:fillColor="#007AFF"
+        android:pathData="M 60.81,27.16 L 60.81,58.50 L 54.63,58.50 L 54.63,34.28 L 47.19,36.66 L 47.19,31.77 L 60.14,27.16 L 60.81,27.16 Z" />
+
+    <!-- Day "THU" centered below date (Roboto Bold matching Settings Dynamic Calendar Icon) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 45.40,69.19 L 45.40,79.50 L 43.28,79.50 L 43.28,69.19 L 45.40,69.19 Z M 48.58,69.19 L 48.58,70.86 L 40.17,70.86 L 40.17,69.19 L 48.58,69.19 Z M 56.65,73.39 L 56.65,75.05 L 51.28,75.05 L 51.28,73.39 L 56.65,73.39 Z M 51.90,69.19 L 51.90,79.50 L 49.78,79.50 L 49.78,69.19 L 51.90,69.19 Z M 58.17,69.19 L 58.17,79.50 L 56.05,79.50 L 56.05,69.19 L 58.17,69.19 Z M 65.70,69.19 L 67.83,69.19 L 67.83,76.00 Q 67.83,77.19 67.31,78.00 Q 66.81,78.81 65.92,79.23 Q 65.03,79.64 63.88,79.64 Q 62.72,79.64 61.83,79.23 Q 60.94,78.81 60.42,78.00 Q 59.92,77.19 59.92,76.00 L 59.92,69.19 L 62.05,69.19 L 62.05,76.00 Q 62.05,76.70 62.27,77.14 Q 62.49,77.58 62.89,77.78 Q 63.31,77.98 63.88,77.98 Q 64.45,77.98 64.86,77.78 Q 65.28,77.58 65.49,77.14 Q 65.70,76.70 65.70,76.00 L 65.70,69.19 Z" />
+</vector>
