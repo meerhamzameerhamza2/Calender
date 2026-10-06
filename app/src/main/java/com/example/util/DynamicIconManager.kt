@@ -84,6 +84,13 @@ object DynamicIconManager {
                 }
             }
 
+            // Generate and cache dynamic WebP icon with Bitmap/Canvas
+            try {
+                DynamicIconBitmapGenerator.cacheIconAsWebp(context)
+            } catch (e: Exception) {
+                Log.w(TAG, "Failed generating cached icon: ${e.message}")
+            }
+
             // Also update the 1x1 Dynamic Calendar Widget
             DynamicCalendarWidgetProvider.triggerUpdate(context)
 
